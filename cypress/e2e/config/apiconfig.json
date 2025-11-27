@@ -1,0 +1,10 @@
+{
+    "endpoints": {
+      "listUsers": "/api/users?page=2",
+      "singleUser": "/api/users/",
+      "createUser": "/api/users",
+      "registerUser": "/api/register",
+      "loginUser": "/api/login",
+      "deleteUser": "/api/users/"
+    }
+}

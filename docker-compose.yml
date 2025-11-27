@@ -1,0 +1,26 @@
+services:
+    cypress_chrome:
+        image: cypress_compose_chrome
+        container_name: cypress_chrome_container
+        build:
+            context: .
+            dockerfile: ./Dockerfile
+        entrypoint: ["npm","run","test:e2e:chrome"]
+        volumes:
+            - ./:/app
+            - ./docker-result/chrome:/app/cypress/results
+            - ./docker-result/chrome:/app/mochawesome-report
+            - ./docker-result/chrome:/app/cypress/logs
+
+    cypress_edge:
+        image: cypress_compose_edge
+        container_name: cypress_edge_container
+        build:
+            context: .
+            dockerfile: ./Dockerfile
+        entrypoint: ["npm","run","test:e2e:edge"]
+        volumes:
+            - ./:/app
+            - ./docker-result/edge:/app/cypress/results
+            - ./docker-result/edge:/app/mochawesome-report
+            - ./docker-result/edge:/app/cypress/logs

@@ -1,0 +1,14 @@
+/node_modules
+cypress/videos
+cypress/screenshots
+cypress/logs
+cypress/reports
+cypress/logs
+cypress/downloads
+cypress.env.json
+cypress/results
+mochawesome-report
+dockerReports
+mochawesome.json
+docker-result
+.vscodegit 

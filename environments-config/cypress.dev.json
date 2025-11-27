@@ -1,0 +1,8 @@
+{
+    "baseUrl": "https://www.saucedemo.com/",
+    "apiBaseUrl":"https://reqres.in",
+
+    "env": {
+        "environment": "dev"
+      }
+}

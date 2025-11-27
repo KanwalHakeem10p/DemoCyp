@@ -1,0 +1,8 @@
+{
+    "baseUrl": "https://www.google.com/",
+    "apiBaseUrl":"https://reqres.in",
+
+    "env": {
+        "environment": "stage"
+      }
+}

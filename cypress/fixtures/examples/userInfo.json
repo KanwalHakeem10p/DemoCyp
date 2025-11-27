@@ -1,0 +1,8 @@
+{
+    "userInfo":{
+      "username":"standard_user",
+      "password": "secret_sauce",
+      "invalidUserName": "invalidUsername",
+      "invalidPassword": "invalidpassword"
+    }
+}
